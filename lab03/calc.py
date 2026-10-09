@@ -6,3 +6,6 @@ print(f"{x} + {y} = {result}")
 
 result = x - y
 print(f"{x} - {y} = {result}")
+
+result = x * y
+print(f"{x} * {y} = {result}")
