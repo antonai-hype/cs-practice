@@ -3,3 +3,6 @@ y = float(input("Введите второе число: "))
 
 result = x + y
 print(f"{x} + {y} = {result}")
+
+result = x - y
+print(f"{x} - {y} = {result}")
