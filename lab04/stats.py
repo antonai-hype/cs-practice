@@ -1,5 +1,5 @@
-def pars_record(line: str)->dict:
-    parts=split.line(";")
+def parse_record(line: str)->dict:
+    parts=line.split(";")
     if len(parts) !=3:
         raise ValueError("менее трех полей")
 
@@ -51,6 +51,8 @@ def average_by_city(records: list[dict])-> dict:
     return result  
 
 def warmest_city(records: list[dict])->str:
+    averages = average_by_city(records)
+
     if not averages:                      
         return ""                         
 
