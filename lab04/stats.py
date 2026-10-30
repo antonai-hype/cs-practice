@@ -19,8 +19,35 @@ def pars_record(line: str)->dict:
 
     
 def read_valid(lines: list[str])->list[dict]:
-    pass
+    records = []
+
+    for line in lines:
+
+       if not line.strip():
+             continue
+
+       try:
+           record = parse_record(line)
+       except ValueError:
+            continue 
+       records.append(record)
+    return records
+
 def average_by_city(records: list[dict])-> dict:
-    pass
+    sums = {} 
+    counts = {}
+    for record in records:            
+        city = record["city"]         
+        temperature = record["temperature"]
+        sums[city] = sums.get(city, 0) + temperature
+        counts[city] = counts.get(city, 0) + 1
+
+    result = {}
+
+    for city in sums:
+        avg = sums[city] / counts[city]
+        result[city] = round(avg, 1)
+
+    return result  
 def warmest_city(records: list[dict])->str:
     pass
