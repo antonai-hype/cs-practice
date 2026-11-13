@@ -1,3 +1,4 @@
+
 def parse_event(line: str) ->dict:
     line = line.split(' ')
     if len(line) < 3:
@@ -57,4 +58,3 @@ def format_report(counts: dict, errors: list[list]) -> str:
     for msg, count in errors:
         report += f"- {msg} — {count}\n"
     return report
-        

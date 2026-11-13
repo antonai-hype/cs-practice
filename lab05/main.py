@@ -7,3 +7,4 @@ with open('events.log', 'r', encoding='utf-8') as file:
     errors = top_errors(file, 3)
 report = format_report(counts, errors)
 print(report)
+
