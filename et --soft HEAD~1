@@ -1,0 +1,98 @@
+[33mcommit 248bdffe9a24e841fa75e482fa3016d8614da6a6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Sat Oct 10 00:46:00 2026 +0300
+
+    teg
+
+[33mcommit 05b49adf4657be70e03350845c7e398fae3ed38b[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m)[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Sat Oct 10 00:17:37 2026 +0300
+
+    kommentariy
+
+[33mcommit 58c7204d2d88981959b4c1fb178c3a64eeccc89d[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Sat Oct 10 00:13:32 2026 +0300
+
+    Revert "OSHIBKA'\"
+    
+    This reverts commit 0fb018d70867d49d231898f27f8ed3312be6eaaf.
+
+[33mcommit 0fb018d70867d49d231898f27f8ed3312be6eaaf[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Sat Oct 10 00:13:10 2026 +0300
+
+    OSHIBKA'\
+
+[33mcommit 58dc946a8787ac2c3d1b6a555fdfef583e21dd86[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Sat Oct 10 00:10:23 2026 +0300
+
+    izmenenie
+
+[33mcommit 7fd3d4692f97929ea06377d01481c47f2ef8c65a[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Sat Oct 10 00:04:18 2026 +0300
+
+    Zametki
+
+[33mcommit f09012bf71dc760b56f5a49f3fb4c5d9796e42fe[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Fri Oct 9 23:40:33 2026 +0300
+
+    Calculator 3
+
+[33mcommit 8f98e488a9fa249629b0070e27cbaa27d443990d[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Fri Oct 9 23:38:22 2026 +0300
+
+    Calculator 2
+
+[33mcommit d1f96e7b102d809046dc1c79f981dc36bccf0cbc[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Fri Oct 9 23:32:43 2026 +0300
+
+    calculator
+
+[33mcommit 40fc09d17d2b3c35e66c467e1e5321c76bf0b637[m
+Merge: 9e2b426 ea055b4
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Wed Oct 7 00:40:17 2026 +0300
+
+    Merge branch explain-branches
+
+[33mcommit ea055b48cbc6dba5b8e980f3b114e606edcc1a2c[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Wed Oct 7 00:38:59 2026 +0300
+
+    Explain branches
+
+[33mcommit 9e2b4268f847fd0856fbf55f85abb87777668036[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Wed Oct 7 00:15:17 2026 +0300
+
+    git diff git diff --staged and gitstatus
+
+[33mcommit 1877ca7cca86108369fd9713f0a8fba52321c2b7[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Wed Oct 7 00:05:08 2026 +0300
+
+    git and github
+
+[33mcommit 72530f5c6da29ba45c5af763a499d78be74c2faf[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Tue Oct 6 23:15:19 2026 +0300
+
+    Describe local Git states
+
+[33mcommit 8824f97b23dc3e16839b2b40cfa18b018a160aa4[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Sat Oct 3 06:28:41 2026 +0300
+
+    Describe local Git states
+
+[33mcommit 760bd59a34287ebf4344ef6ca4d335141f063bb9[m
+Author: antonai-hype <anton17schetkin@mail.ru>
+Date:   Sat Oct 3 08:50:35 2026 +0300
+
+    Initial commit
