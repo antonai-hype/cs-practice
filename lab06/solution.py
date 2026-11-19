@@ -12,7 +12,13 @@ def count_by_extension(paths):
     return extensions
 
 def deepest_path(paths):
-    pass
+    deepest = ""
+
+    for path in paths:
+        if path.count('/') > deepest.count("/") or (path.count("/") == deepest.count("/") and path < deepest):
+            deepest = path
+
+    return deepest
 
 
 def human_size(n_bytes):
@@ -23,6 +29,7 @@ paths = ["docs/report.PDF",
             "Makefile"
         ]
 print(count_by_extension(paths))
+print(deepest_path(paths))
 
 # count_by_extension(paths)   # {"pdf": 1, "txt": 1, "png": 1, "": 1}
 # deepest_path(paths)         # "docs/img/logo.png"
